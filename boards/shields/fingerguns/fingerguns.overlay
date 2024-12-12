@@ -79,9 +79,11 @@
 };
 
 &layout_12col {
+    display-name = "fingerguns";
     transform = <&transform_12col>;
 };
 
 &layout_10col {
+    display-name = "fingerguns";
     transform = <&transform_10col>;
-};a
+};
