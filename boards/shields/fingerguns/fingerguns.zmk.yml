@@ -1,0 +1,8 @@
+file_format: "1"
+id: fingerguns
+name: Fingerguns
+type: shield
+url: https://github.com/cds30895/fingerguns-zmk-config/
+requires: [pro_micro]
+features:
+  -keys
