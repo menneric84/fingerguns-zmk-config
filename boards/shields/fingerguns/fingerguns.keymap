@@ -376,10 +376,10 @@
 //             | GUI | L-0 | ENT |   | SPC | L-1 | ALT |
                         label = "BT";
                         bindings = <
-   &none        &none        &none        &none        &none          &none     &none &none &none &bootloader
-   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &none     &none &none &none &bt BT_CLR
-   &none        &none        &none        &none        &none          &none     &none &none &none &ctrl_shft_esc
-                             &kp LGUI     &to 0        &kp RET        &kp SPACE &to 1 &RALT
+   &none        &none        &none        &none        &none          &none     &none &none    &none &bootloader
+   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &none     &none &none    &none &bt BT_CLR
+   &none        &none        &none        &none        &none          &none     &none &none    &none &ctrl_shft_esc
+                             &kp LGUI     &to 0        &kp RET        &kp SPACE &to 1 &kp RALT
                         >;
                 };
 
