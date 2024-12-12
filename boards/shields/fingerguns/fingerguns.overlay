@@ -1,14 +1,14 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-// You must ensure the proper transform is indicated for zmk,matris-transform.
-// For 12 columns, use &default_transform.
-// For 10 columns, use &10col_transform.
+// You must ensure the proper physical layout is indicated for zmk,physical-layout.
+// For 12 columns, use &layout_12col.
+// For 10 columns, use &layout_10col.
 // SEE README.md
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix-transform = &10col_transform;
+        zmk,physical-layout = &layout_10col;
     };
 
     kscan0: kscan0 {
@@ -39,7 +39,7 @@
             ;
     };
 
-    default_transform: keymap_transform0 {
+    12col_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <12>;
         rows = <4>;
@@ -77,3 +77,11 @@
         >;
     };
 };
+
+&layout_12col {
+    transform = <&12col_transform>;
+};
+
+&layout_10col {
+    transform = <&10col_transform>;
+};a
