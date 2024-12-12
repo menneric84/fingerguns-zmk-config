@@ -39,7 +39,7 @@
             ;
     };
 
-    12col_transform: keymap_transform0 {
+    transform_12col: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <12>;
         rows = <4>;
@@ -58,7 +58,7 @@
         >;
     };
 
-    10col_transform: keymap_transform1 {
+    transform_10col: keymap_transform1 {
         compatible = "zmk,matrix-transform";
         columns = <10>;
         rows = <4>;
@@ -79,9 +79,9 @@
 };
 
 &layout_12col {
-    transform = <&12col_transform>;
+    transform = <&transform_12col>;
 };
 
 &layout_10col {
-    transform = <&10col_transform>;
+    transform = <&transform_10col>;
 };a
