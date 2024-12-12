@@ -8,4 +8,4 @@ The 10 column is represented by &layout_10col
 
 YOU MUST SELECT OR CREATE AN APPROPRIATE KEYMAP
 
-In the ergomech community a keymap is an intensely personal thing.  That being said, I've included a 12 column and 10 column keymap in case you need somewhere to start.  Please note that fingerguns.keymap is intended for the 10 column variant.  A 12 column keymap is also included under the name fingerguns.keymap.12col.  If you wish to use 12 columns, simply append '.10col' to the default keymap and delete '.12col' from the other one.
+In the ergomech community a keymap is an intensely personal thing.  That being said, I've included my own 12 column and 10 column keymaps in case you need somewhere to start.  Please note that fingerguns.keymap is intended for the 10 column variant.  A 12 column keymap is also included under the name fingerguns.keymap.12col.  If you wish to use 12 columns, simply append '.10col' to the default keymap and delete '.12col' from the other one.
