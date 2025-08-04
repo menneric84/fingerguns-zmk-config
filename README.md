@@ -1,6 +1,6 @@
 YOU MUST CHECK fingerguns.overlay TO ENSURE THE PROPER PHYSICAL LAYOUT IS CHOSEN
 
-Please see the comments on line 3 of fingerguns.overlay.  In the 'chosen' node, you will need to adjust zmk,physical-layout depending on if you are using the 12 column variant or the 10 column variant of the Fingerguns PCB.
+Please see the comments on line 4 of fingerguns.overlay.  In the 'chosen' node, you will need to adjust zmk,physical-layout depending on if you are using the 12 column variant or the 10 column variant of the Fingerguns PCB.
 
 The 12 column is represented by &layout_12col
 The 10 column is represented by &layout_10col
