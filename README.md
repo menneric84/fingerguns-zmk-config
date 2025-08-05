@@ -1,3 +1,5 @@
+![12col variant of fingerguns](/pictures/11.jpg)
+
 YOU MUST CHECK fingerguns.overlay TO ENSURE THE PROPER PHYSICAL LAYOUT IS CHOSEN
 
 Please see the comments on line 4 of fingerguns.overlay.  In the 'chosen' node, you will need to adjust zmk,physical-layout depending on if you are using the 12 column variant or the 10 column variant of the Fingerguns PCB.
@@ -23,9 +25,11 @@ In the ergomech community a keymap is an intensely personal thing.  That being s
 If you are confused about switches, all parts except the inserts and screws can be sourced from typeractive.xyz.
 
 # BUILDING
+![fingerguns on the hotplate](/pictures/3.jpg)
 If planning to use the case, the MCU should be soldered with the included headers, NOT sockets.  The sockets add too much height to fit in the case.  A hot plate is recommended for assembly, as it makes the whole process very quick and easy.  Assembly is possible by hand with a soldering iron, though it can be delicate and frustrating.  For the diodes and switches, I recommend tinning one pad first, then placing the component with tweezers before soldering the other side.  Some of the photos show a battery pigtail, but ultimately I decided to solder the battery wires directly to the board and stick the battery down with a command strip.
 
 # CASES
+![12col fingerguns 3d printed case](/pictures/8.jpg)
 Files are included to 3d print a case for the 12col variant, designed by my brother.  PCB is secured with 6 M2 heat set inserts. The 10col case is still in development, but will be added to the repo when it's done.  I've also included a .step file of the PCB under /gerbers_and_kicad if you'd like to design your own.
 
 # LICENSING
