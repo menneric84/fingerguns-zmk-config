@@ -10,15 +10,15 @@ YOU MUST SELECT OR CREATE AN APPROPRIATE KEYMAP
 In the ergomech community a keymap is an intensely personal thing.  That being said, I've included my own 12 column and 10 column keymaps in case you need somewhere to start.  Please note that fingerguns.keymap is intended for the 10 column variant.  A 12 column keymap is also included under the name fingerguns.keymap.12col.  If you wish to use 12 columns, simply append '.10col' to the default keymap and delete '.12col' from the other one.
 
 # BOM
-36-42 choc switches & keycaps
-36-42 choc hotswaps
-36-42 smd diodes
-6 M2 heat set inserts
-6 M2 x 6mm screws
-1 MSK12C02 switch
-1 Panasonic EVQPUJ_EVQPUA button
-1 pro micro form factor MCU
-1 301230 110mAh battery (optional)
+36-42 choc switches & keycaps  
+36-42 choc hotswaps  
+36-42 smd diodes  
+6 M2 heat set inserts  
+6 M2 x 6mm screws  
+1 MSK12C02 switch  
+1 Panasonic EVQPUJ_EVQPUA button  
+1 pro micro form factor MCU  
+1 301230 110mAh battery (optional)  
 
 If you are confused about switches, all parts except the inserts and screws can be sourced from typeractive.xyz.
 
