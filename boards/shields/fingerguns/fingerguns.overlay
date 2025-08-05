@@ -9,7 +9,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &layout_12col;
+        zmk,physical-layout = &layout_10col;
     };
 
     kscan0: kscan0 {
