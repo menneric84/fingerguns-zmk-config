@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,Battery,1,Battery_Cell,
+"D1, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D2, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D3, D30, D31, D32, D33, D34, D35, D36, D37, D38, D39, D4, D40, D41, D42, D5, D6, D7, D8, D9",Diode_SOD-123,42,Diode,
+"H1, H2, H3, H4, H5, H6",MountingHole_2.2mm_M2_DIN965_Pad_TopBottom,6,Mounting_Hole,
+"H10, H7, H8, H9",MountingHole_3.2mm_M3,4,Mounting_Hole,
+"S1, S10, S11, S12, S13, S14, S15, S16, S17, S18, S19, S2, S20, S21, S22, S23, S24, S25, S26, S27, S28, S29, S3, S30, S31, S32, S33, S34, S35, S36, S37, S38, S39, S4, S40, S41, S42, S5, S6, S7, S8, S9",Hotswap_Choc_V1_1.00u no silkscreen,42,Keyswitch,
+SW1,Switch_MSK12C02,1,SW_SPDT,
+SW2,Panasonic_EVQPUJ_EVQPUA,1,Switch,
+U1,Arduino_Pro_Micro,1,Arduino_Pro_Micro,
