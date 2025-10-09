@@ -1,0 +1,10 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"S2,S20,S17,S11,S19,S26,S5,S41,S33,S15,S14,S27,S35,S21,S13,S4,S1,S7,S25,S37,S32,S18,S31,S3,S40,S16,S22,S36,S10,S23,S29,S9,S34,S42,S12,S6,S39,S28,S8,S38,S30,S24";"Hotswap_Choc_V1_1.00u no silkscreen";42;"Keyswitch";;;
+2;"H8,H7,H9,H10";"MountingHole_3.2mm_M3";4;"Mounting_Hole";;;
+3;"H6,H1,H5,H2,H3,H4";"MountingHole_2.2mm_M2_DIN965_Pad_TopBottom";6;"Mounting_Hole";;;
+4;"U1";"Arduino_Pro_Micro";1;"Arduino_Pro_Micro";;;
+5;"D19,D34,D18,D22,D23,D7,D29,D41,D4,D26,D32,D25,D42,D28,D35,D40,D31,D38,D30,D12,D5,D37,D15,D2,D21,D9,D14,D33,D3,D36,D16,D1,D17,D13,D11,D27,D6,D39,D10,D20,D24,D8";"Diode_SOD-123";42;"Diode";;;
+6;"SW1";"Switch_MSK12C02";1;"SW_SPDT";;;
+7;"SW2";"Panasonic_EVQPUJ_EVQPUA";1;"Switch";;;
+8;"BT1";"Battery";1;"Battery_Cell";;;
+9;"SW4,SW3";"RotaryEncoder_Alps_EC12E_Vertical_H20mm";2;"RotaryEncoder";;;

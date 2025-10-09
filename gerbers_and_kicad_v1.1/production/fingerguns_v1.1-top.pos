@@ -1,0 +1,52 @@
+### Footprint positions - created on 2025-10-08T19:16:16-0700 ###
+### Printed by KiCad version 9.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                                       PosX       PosY       Rot  Side
+BT1       Battery_Cell       Battery                                   208.1250  -106.7812   90.0000  top
+S1        Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen        54.0000   -51.0000    0.0000  top
+S2        Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen        72.0000   -51.0000    0.0000  top
+S3        Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen        90.0000   -51.0000    0.0000  top
+S4        Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       108.0000   -51.0000    0.0000  top
+S5        Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       126.0000   -51.0000    0.0000  top
+S6        Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       144.0000   -51.0000    0.0000  top
+S7        Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       162.0000   -51.0000    0.0000  top
+S8        Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       180.0000   -51.0000    0.0000  top
+S9        Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       198.0000   -51.0000    0.0000  top
+S10       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       216.0000   -51.0000    0.0000  top
+S11       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       234.0000   -51.0000  180.0000  top
+S12       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       252.0000   -51.0000    0.0000  top
+S13       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen        54.0000   -68.0000    0.0000  top
+S14       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen        72.0000   -68.0000    0.0000  top
+S15       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen        90.0000   -68.0000    0.0000  top
+S16       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       108.0000   -68.0000    0.0000  top
+S17       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       126.0000   -68.0000    0.0000  top
+S18       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       144.0000   -68.0000    0.0000  top
+S19       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       162.0000   -68.0000    0.0000  top
+S20       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       180.0000   -68.0000    0.0000  top
+S21       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       198.0000   -68.0000    0.0000  top
+S22       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       216.0000   -68.0000    0.0000  top
+S23       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       234.0000   -68.0000  180.0000  top
+S24       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       252.0000   -68.0000    0.0000  top
+S25       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen        54.0000   -85.0000    0.0000  top
+S26       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen        72.0000   -85.0000    0.0000  top
+S27       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen        90.0000   -85.0000    0.0000  top
+S28       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       108.0000   -85.0000    0.0000  top
+S29       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       126.0000   -85.0000    0.0000  top
+S30       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       144.0000   -85.0000    0.0000  top
+S31       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       162.0000   -85.0000    0.0000  top
+S32       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       180.0000   -85.0000    0.0000  top
+S33       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       198.0000   -85.0000    0.0000  top
+S34       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       216.0000   -85.0000    0.0000  top
+S35       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       234.0000   -85.0000  180.0000  top
+S36       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       252.0000   -85.0000    0.0000  top
+S37       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       108.0000  -102.0000    0.0000  top
+S38       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       126.0000  -102.0000    0.0000  top
+S39       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       144.0000  -102.0000    0.0000  top
+S40       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       162.0000  -102.0000    0.0000  top
+S41       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       180.0000  -102.0000    0.0000  top
+S42       Keyswitch          Hotswap_Choc_V1_1.00u_no_silkscreen       198.0000  -102.0000    0.0000  top
+SW3       RotaryEncoder      RotaryEncoder_Alps_EC12E_Vertical_H20mm    51.5000   -58.5500   90.0000  top
+SW4       RotaryEncoder      RotaryEncoder_Alps_EC12E_Vertical_H20mm   249.5000   -58.5500   90.0000  top
+U1        Arduino_Pro_Micro  Arduino_Pro_Micro                          81.2231  -102.5312   90.0000  top
+## End

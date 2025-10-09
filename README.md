@@ -1,4 +1,10 @@
 ![12col variant of fingerguns](/pictures/11.jpg)
+# v1.1
+v1.1 includes support for one ALPS EC12 rotary encoder that can be placed in either the right or the left corner.  Both sockets are wired to the same pins (gpio 0 and gpio 1), so only one can be used at a time.
+
+Pinout is identical, but the ZMK repo is not currently configured for rotary encoders.  I will dive into rotary encoders in ZMK when I have time.
+
+Other changes: moved MCU closer to the edge, rotated hotswaps on col10 (the 11th column) to make design of the 10col case easier.
 
 # ZMK
 YOU MUST CHECK fingerguns.overlay TO ENSURE THE PROPER PHYSICAL LAYOUT IS CHOSEN
