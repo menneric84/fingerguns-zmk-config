@@ -1,0 +1,6 @@
+if SHIELD_RICK_PLANK
+
+config ZMK_KEYBOARD_NAME
+    default "rick-plank"
+
+endif

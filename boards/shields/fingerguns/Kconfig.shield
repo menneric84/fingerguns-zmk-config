@@ -1,2 +1,0 @@
-config SHIELD_FINGERGUNS
-    def_bool $(shields_list_contains,fingerguns)

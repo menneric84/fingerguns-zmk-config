@@ -1,6 +1,0 @@
-if SHIELD_FINGERGUNS
-
-config ZMK_KEYBOARD_NAME
-    default "fingerguns"
-
-endif

@@ -1,0 +1,59 @@
+#include <dt-bindings/zmk/matrix_transform.h>
+#include "rick-plank-layouts.dtsi"
+
+// You must ensure the proper physical layout is indicated for zmk,physical-layout.
+// For 12 columns, use &layout_12col.
+// For 10 columns, use &layout_10col.
+// SEE README.md
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &layout_10col;
+    };
+
+    kscan0: kscan0 {
+        compatible = "zmk,kscan-gpio-matrix";
+        diode-direction = "col2row";
+        wakeup-source;
+
+        col-gpios
+            = <&pro_micro 21 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 20 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 19 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 18 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 15 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 3 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 4 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 5 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 6 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 7 GPIO_ACTIVE_HIGH>
+            ;
+
+        row-gpios
+            = <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            ;
+    };
+
+    transform_10col: keymap_transform1 {
+        compatible = "zmk,matrix-transform";
+        columns = <10>;
+        rows = <4>;
+        map = <
+        //   Key 1 | Key 2 | Key 3 | Key 4 | Key 5 | Key 6 | Key 7 | Key 8 | Key 9 | Key 10
+            RC(0,0) RC(0,1) RC(0,2) RC(0,3) RC(0,4) RC(0,5) RC(0,6) RC(0,7) RC(0,8) RC(0,9)
+
+        //   Key 11| Key 12| Key 13| Key 14| Key 15| Key 16| Key 17| Key 18| Key 19| Key 20
+            RC(1,0) RC(1,1) RC(1,2) RC(1,3) RC(1,4) RC(1,5) RC(1,6) RC(1,7) RC(1,8) RC(1,9)
+
+        //   Key 21| Key 22| Key 23| Key 24| Key 25| Key 26| Key 27| Key 28| Key 29| Key 30
+            RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(2,6) RC(2,7) RC(2,8) RC(2,9)
+
+        //                   Key 31| Key 32| Key 33| Key 34| Key 35| Key 36
+                            RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(3,6) RC(3,7)
+        >;
+    };
+};

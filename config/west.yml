@@ -10,11 +10,16 @@ manifest:
       url-base: https://github.com/ftc
     - name: urob
       url-base: https://github.com/urob
+    - name: joric
+      url-base: https://github.com/joric
   projects:
     - name: zmk
       remote: zmkfirmware
       remote: urob
       revision: main
       import: app/west.yml
+    - name: nrfmicro
+      remote: joric
+      revision: main
   self:
     path: config

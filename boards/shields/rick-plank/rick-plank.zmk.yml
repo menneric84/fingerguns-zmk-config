@@ -1,0 +1,8 @@
+file_format: "1"
+id: rick-plank
+name: Rick Plank
+type: shield
+url: https://github.com/cds30895/rick-plank-zmk-config/
+requires: [pro_micro]
+features:
+  -keys
