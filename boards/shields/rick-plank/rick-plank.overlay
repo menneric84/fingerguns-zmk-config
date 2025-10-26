@@ -11,6 +11,7 @@
         zmk,kscan = &kscan0;
         zmk,physical-layout = &layout_10col;
         zmk,display = &oled;
+        zephyr,display = &oled;
     };
 
     kscan0: kscan0 {
@@ -71,6 +72,8 @@
         page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <63>;
+        segment-remap;
+        com-invdir;
         prechargep = <0x22>;
     };
 };
