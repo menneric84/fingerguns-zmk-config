@@ -1,11 +1,4 @@
 / {
-    layout_12col: layout_12col {
-        compatible = "zmk,physical-layout";
-        display-name = "fingerguns";
-        transform = <&transform_12col>;
-        kscan = <&kscan0>;
-    };
-
     layout_10col: layout_10col {
         compatible = "zmk,physical-layout";
         display-name = "fingerguns";
