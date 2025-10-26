@@ -22,3 +22,5 @@ include:
   - board: nrfmicro_13
     shield: rick-plank
     snippet: studio-rpc-usb-uart
+  - board: nrfmicro_13
+    shield: settings_reset
