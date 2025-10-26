@@ -3,6 +3,6 @@
         compatible = "zmk,physical-layout";
         display-name = "fingerguns";
         transform = <&transform_10col>;
-        kscan = <&kscan1>;
+        kscan = <&kscan0>;
     };
 };
