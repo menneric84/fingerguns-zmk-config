@@ -5,4 +5,5 @@ type: shield
 url: https://github.com/cds30895/rick-plank-zmk-config/
 requires: [nrfmicro]
 features:
-  -keys
+  - keys
+  - studio
