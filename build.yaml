@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: supermini_nrf52840
+  - board: nrfmicro_13
     shield: rick-plank
