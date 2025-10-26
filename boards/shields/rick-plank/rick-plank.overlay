@@ -1,11 +1,10 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-// #include "rick-plank-layouts.dtsi"
+#include "rick-plank-layouts.dtsi"
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        // zmk,physical-layout = &layout_10col;
-        zmk,matrix-transform = &transform_10col;
+        zmk,physical-layout = &layout_10col;
     };
 
     kscan0: kscan0 {
