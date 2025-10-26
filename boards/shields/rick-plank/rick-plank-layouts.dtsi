@@ -2,7 +2,7 @@
     layout_10col: layout_10col {
         compatible = "zmk,physical-layout";
         display-name = "rick-plank";
-        transform = <&transform_10col>;
+        transform = <&transform>;
         kscan = <&kscan0>;
     };
 };

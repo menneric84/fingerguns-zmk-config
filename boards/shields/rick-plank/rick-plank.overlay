@@ -1,17 +1,10 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "rick-plank-layouts.dtsi"
 
-// You must ensure the proper physical layout is indicated for zmk,physical-layout.
-// For 12 columns, use &layout_12col.
-// For 10 columns, use &layout_10col.
-// SEE README.md
-
 / {
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &layout_10col;
-        zmk,display = &oled;
-        zephyr,display = &oled;
     };
 
     kscan0: kscan0 {
@@ -40,7 +33,7 @@
             ;
     };
 
-    transform_10col: keymap_transform1 {
+    transform: keymap_transform1 {
         compatible = "zmk,matrix-transform";
         columns = <10>;
         rows = <4>;
@@ -57,23 +50,5 @@
         //   Key 31| Key 32| Key 33| Key 34| Key 35| Key 36| Key 37| Key 38| Key 39| Key 40
             RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(3,6) RC(3,7) RC(3,8) RC(3,9)
         >;
-    };
-};
-
-&i2c0 {
-    status = "okay";
-    
-    oled: ssd1306@3c {
-        compatible = "solomon,ssd1306fb";
-        reg = <0x3c>;
-        width = <128>;
-        height = <64>;
-        segment-offset = <0>;
-        page-offset = <0>;
-        display-offset = <0>;
-        multiplex-ratio = <63>;
-        segment-remap;
-        com-invdir;
-        prechargep = <0x22>;
     };
 };
