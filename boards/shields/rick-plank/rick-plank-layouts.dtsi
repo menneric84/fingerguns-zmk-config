@@ -52,5 +52,6 @@
     key_physical_attrs: key_physical_attrs {
         compatible = "zmk,physical-layout-position";
         #key-physical-layout-args = <7>;
+        #key-cells = <7>;
     };
 };
