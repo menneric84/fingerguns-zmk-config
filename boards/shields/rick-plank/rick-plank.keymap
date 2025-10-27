@@ -84,7 +84,7 @@ macros {
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "QWRT";
+            display-name = "QWRT";
             bindings = <
       &kp Q     &kp W         &kp E        &kp R      &kp T                 &kp Y            &kp U  &kp I      &kp O    &kp P      
      &kp A     &kp S         &kp D        &kp F      &kp G                 &kp H            &kp J  &kp K      &kp L    &kp SEMI   
@@ -93,8 +93,8 @@ macros {
             >;
         };
 
-        number_layer {
-            label = "NUM";
+        num_layer {
+            display-name = "NUM";
             bindings = <
   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0 
    &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &none                     &none         &none         &none         &none         &none         
@@ -104,7 +104,7 @@ macros {
         };
 
         symbol_layer {
-            label = "SYM";
+            display-name = "SYM";
             bindings = <
  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT              &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS 
  &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                   &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT               
@@ -114,7 +114,7 @@ macros {
         };
 
         function_layer {
-            label = "FUN";
+            display-name = "FUN";
             bindings = <
  &kp F1  &kp F2   &kp F3   &kp F4   &none              &none  &none  &none  &none  &none 
  &kp F5  &kp F6   &kp F7   &kp F8   &none              &none  &none  &none  &none  &none 
@@ -124,7 +124,7 @@ macros {
         };
 
         mouse_layer {
-            label = "MOUSE";
+            display-name = "MOUSE";
             bindings = <
  &kp N1          &kp N2          &kp N3        &kp N4     &kp N5              &kp N6         &kp N7     &kp N8  &kp N9     &kp N0    
  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none               &kp PAGE_UP    &mkp LCLK  &none   &mkp RCLK  &mkp MCLK 
@@ -134,7 +134,7 @@ macros {
         };
 
         scroll_layer {
-            label = "SCROLL";
+            display-name = "SCROLL";
             bindings = <
  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans 
  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans 
@@ -144,7 +144,7 @@ macros {
         };
 
         snipe_layer {
-            label = "SNIPE";
+            display-name = "SNIPE";
             bindings = <
  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans 
  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans 
