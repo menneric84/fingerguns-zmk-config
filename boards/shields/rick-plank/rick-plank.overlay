@@ -18,6 +18,8 @@
             , <&gpio1 4 GPIO_ACTIVE_HIGH>
             , <&gpio1 6 GPIO_ACTIVE_HIGH>
             , <&gpio0 9 GPIO_ACTIVE_HIGH>
+            , <&gpio0 31 GPIO_ACTIVE_HIGH>
+            , <&gpio0 17 GPIO_ACTIVE_HIGH>
             , <&gpio0 10 GPIO_ACTIVE_HIGH>
             , <&gpio1 11 GPIO_ACTIVE_HIGH>
             , <&gpio1 13 GPIO_ACTIVE_HIGH>
@@ -48,7 +50,7 @@
             RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10) RC(2,11)
 
         //   Key 31| Key 32| Key 33| Key 34| Key 35| Key 36| Key 37| Key 38| Key 39| Key 40
-            RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(3,6) RC(3,7) RC(3,8) RC(3,9) RC(3,10) RC(3,11)
+                    RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(3,6) RC(3,7) RC(3,8) RC(3,9) RC(3,10) 
         >;
     };
 };
