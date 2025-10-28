@@ -37,7 +37,7 @@
 
     transform_10col: keymap_transform1 {
         compatible = "zmk,matrix-transform";
-        columns = <10>;
+        columns = <12>;
         rows = <4>;
         map = <
         //   Key 1 | Key 2 | Key 3 | Key 4 | Key 5 | Key 6 | Key 7 | Key 8 | Key 9 | Key 10
