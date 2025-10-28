@@ -86,10 +86,10 @@ macros {
         default_layer {
             display-name = "QWRT";
             bindings = <
-      &kp Q     &kp W         &kp E        &kp R      &kp T               &kp Y            &kp U  &kp I      &kp O    &kp P      
+      &bootloader     &kp W         &kp E        &kp R      &kp T               &kp Y            &kp U  &kp I      &kp O    &kp P      
      &kp A     &kp S         &kp D        &kp F      &kp G                &kp H            &kp J  &kp K      &kp L    &kp SEMI   
   &kp Z     &kp X         &kp C        &kp V      &kp B                 &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH  
- &trans    &kp LALT  &lt 6 ESCAPE  &lt 4 SPACE  &lt 5 TAB            &kp ENTER  &lt 2 BACKSPACE   &kp DELETE   &trans    &bootloader
+  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0 
             >;
         };
 
