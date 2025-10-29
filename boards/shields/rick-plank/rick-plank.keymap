@@ -89,7 +89,7 @@ macros {
                 &bootloader   &kp W         &kp E         &kp R         &kp T                   &kp Y         &kp U         &kp I         &kp O         &kp P      
                 &kp A         &kp S         &kp D         &kp F         &kp G                   &kp H         &kp J         &kp K         &kp L         &kp SEMI   
                 &kp Z         &kp X         &kp C         &kp V         &kp B         &kp TAB   &kp LGUI      &kp N         &kp M         &kp COMMA     &kp DOT       &kp SLASH  
-                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &lt 1 SPACE   &kp BACKSPACE           &kp LSHIFT    &lt 2 ENTER   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0 
+                &reset        &kp NUMBER_2  &kp ESC       &lt 2 SPACE   &kp BACKSPACE           &kp LSHIFT    &lt 1 ENTER   &kp NUMBER_8  &kp C_NEXT    &bootloader
             >;
         };
 
@@ -120,36 +120,6 @@ macros {
                 &kp F5   &kp F6    &kp F7    &kp F8    &trans                      &trans   &trans   &trans   &trans   &trans 
                 &kp F9   &kp F10   &kp F11   &kp F12   &trans                      &trans   &trans   &trans   &trans   &trans 
                 &trans   &trans    &trans    &trans    &trans                      &trans   &mo 3    &trans   &trans   &trans
-            >;
-        };
-
-        mouse_layer {
-            display-name = "MOUSE";
-            bindings = <
-                &kp N1           &kp N2           &kp N3        &kp N4     &kp N5                  &kp N6         &kp N7     &kp N8   &kp N9     &kp N0    
-                &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT  &trans                  &kp PAGE_UP    &mkp LCLK  &trans   &mkp RCLK  &mkp MCLK 
-                &trans           &trans           &trans        &trans     &trans                  &kp PAGE_DOWN  &trans     &trans   &trans     &trans     
-                &trans           &trans           &trans        &trans     &trans                  &trans         &trans     &trans   &trans     &trans    
-            >;
-        };
-
-        scroll_layer {
-            display-name = "SCROLL";
-            bindings = <
-                &trans   &trans   &trans   &trans   &trans                      &trans   &trans   &trans   &trans   &trans 
-                &trans   &trans   &trans   &trans   &trans                      &trans   &trans   &trans   &trans   &trans 
-                &trans   &trans   &trans   &trans   &trans                      &trans   &trans   &trans   &trans   &trans 
-                &trans   &trans   &trans   &trans   &trans                      &trans   &trans   &trans   &trans   &trans 
-            >;
-        };
-
-        snipe_layer {
-            display-name = "SNIPE";
-            bindings = <
-                &trans   &trans   &trans   &trans   &trans                      &trans   &trans   &trans   &trans   &trans 
-                &trans   &trans   &trans   &trans   &trans                      &trans   &trans   &trans   &trans   &trans 
-                &trans   &trans   &trans   &trans   &trans                      &trans   &trans   &trans   &trans   &trans 
-                &trans   &trans   &trans   &trans   &trans                      &trans   &trans   &trans   &trans   &trans 
             >;
         };
     };
